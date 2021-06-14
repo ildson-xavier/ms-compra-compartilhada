@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: co-dominio
+
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ms_compra_compartilhada
+    username: root
+    password:
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+server:
+  port: 8080
